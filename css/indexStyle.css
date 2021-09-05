@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0; padding: 0; border: 0; font-size: 100%;
+font: inherit;vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+/*===============================================================*/
+body {
+    background-color: #161625;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+/*======= COLOR NAV BAR========*/
+.nav-height {height: 8px;}
+.trip {background-color: #e100ab;}
+.pps  {background-color: #00ba16;}
+.job  {background-color: #1E58D0;}
+.app  {background-color: #8702a1;}
+.life {background-color: #ff4919;}
+.info {background-color: #0f0a09;}
+
+/*======= HEDERPLUGIN ========*/
+.no-padding {padding: 0px;}
+.no-margin {margin: 0px;}
+
+/*======= INTRO TEXT ========*/
+.intro-wraper {
+    padding-top: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.bilbo-wraper {margin-top:40px; padding-top: 20px; border: 0.5px solid #40406b; border-radius: 5px; }
+.bilbo-wraper strong {font-size: 120%;}
+.bilbo {
+    color:#ebd565;
+    font-family: 'Merienda', cursive;
+    margin: 0px 0px 45px 0px;
+    width: 100%;
+    font-size: 120%;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    }
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 220%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.intro-text {
+    font-size: 110%;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.letGo {
+    letter-spacing: 1px;
+    margin:30px 0px 15px 0px;
+    font-weight: bold;
+    font-size: 150%;
+}
+.letGo a {
+    text-decoration: none;
+    color: #f94279;
+}
+.letGo a:hover {
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/*=======BOX COLOR NAV========*/
+.colorBox-wraper {margin-top: 5px;border-radius: 3px;}
+.colorBox-wraper a {text-decoration: none; padding: 0px; margin: 0px;}
+.colorBox {margin-bottom:20px;}
+.shadow:hover {box-shadow: 0px 2px 10px 6px rgba(141, 141, 141, 0.45); transition: ease-in-out 0.3s;}
+.fig{
+    text-align: center;
+    background-color:#1d1a15;
+    color:#ebd565;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 140%;
+    border-bottom: 0.5px solid #40406b;
+    border-left: 0.5px solid #40406b;
+    border-right: 0.5px solid #40406b;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/*===========FOOTER===============*/
+
+.site-footer {
+    background-color: #222222;
+    padding: 5px 0px 5px 0px;
+    margin-top:15px;
+}
+
+/*====MEDIA QUERY 990PX========*/
+@media screen and (max-width:990px) {
+
+.bilbo-wraper {padding-top: 15px;}
+.bilbo {margin: 0px 0px 20px 0px;}
+h1 {margin-bottom: 20px; margin-top: 20px;}
+
+}
+/*====MEDIA QUERY 768PX========*/
+@media screen and (max-width:768px) {
+.letGo {font-size: 120%;}
+.fig{font-size: 110%;}
+h1 {margin-top: 20px;}
+}
+/*====MEDIA QUERY 400PX========*/
+@media screen and (max-width:400px) {
+.bilbo {margin: 0px 0px 10px 0px;}
+h1 {
+    margin-top: 20px;
+    font-size: 150%;
+    }
+.intro-text {
+    font-size: 100%;
+    line-height: 18px;
+}
+.letGo {
+    margin:20px 0px 15px 0px;
+    font-size: 120%;
+    line-height: 20px;
+}
+}

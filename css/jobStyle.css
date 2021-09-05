@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0; padding: 0; border: 0; font-size: 100%;
+font: inherit;vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+/*===============================================================*/
+body {
+    background-color: #161625;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: relative;
+}
+/*======= COLOR NAV BAR========*/
+.trip {background-color: #e100ab; text-decoration: none; text-align: center; padding: 3px 0px 3px 0px; color:white; font-size: 100%;}
+.trip:hover {color:black; text-decoration: none; font-weight: bold; transition: 0.3s; background-color: white;}
+.pps {background-color: #00ba16; text-decoration: none; text-align: center; padding: 3px 0px 3px 0px; color:white; font-size: 100%;}
+.pps:hover {color:black; text-decoration: none; font-weight: bold; transition: 0.3s; background-color: white;}
+.job {background-color: #1E58D0; text-decoration: none; text-align: center; padding: 3px 0px 3px 0px; color:white; font-size: 100%;}
+.job:hover {color:black; text-decoration: none; font-weight: bold; transition: 0.3s; background-color: white;}
+.app {background-color: #8702a1; text-decoration: none; text-align: center; padding: 3px 0px 3px 0px; color:white; font-size: 100%;}
+.app:hover {color:black; text-decoration: none; font-weight: bold; transition: 0.3s; background-color: white;}
+.life {background-color: #ff4919; text-decoration: none; text-align: center; padding: 3px 0px 3px 0px; color:white; font-size: 100%;}
+.life:hover {color:black; text-decoration: none; font-weight: bold; transition: 0.3s; background-color: white;}
+.info {background-color: #0f0a09; text-decoration: none; text-align: center; padding: 3px 0px 3px 0px; color:white; font-size: 100%;}
+.info:hover {color:black; text-decoration: none; font-weight: bold; transition: 0.3s; background-color: white;}
+.main-row-margin {margin-top:25px;}
+
+/*===========FIX SIDE BAR===============*/
+#sideBar ul li {text-align: center;}
+#sideBar ul li i {font-size: 180%;}
+.affix {top:80px;}
+
+/*===========MAIN CONTENT===============*/
+.panel-bg {background-color: #161625; border: 0.25px solid #40406b;}
+h2 {
+    border-radius: 4px;
+    margin: 0px;
+    width: 100%;
+    padding: 1% 0 1% 10px;
+    background-color: #00132d;
+    color: #c5d9f4;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+h3 {
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-size:105%;
+    float: left;
+    padding: 5px 0 5px 2px;
+    margin: 25px 0 0px 0px;
+    font-weight: bold;
+    color:#ebd565;
+    letter-spacing: 1px;
+}
+p {
+    width: 100%;
+    float: left;
+    text-align: justify;
+    font-size: 100%;
+    letter-spacing:1px;
+    line-height: 20px;
+}
+p a:hover {color:#27edff; transition: 0.4s; text-decoration: none;}
+.cvRules {
+    width: auto;
+    float: left;
+    list-style: none;
+    text-align: justify;
+    margin: 20px 0px 0px 20px;
+    list-style-type: circle;
+}
+.cvRules li {line-height: 20px;margin-bottom: 8px;}
+.cv-temp {
+    width: auto;
+    float: left;
+    margin: 20px 0px 0px 20px; 
+    list-style-type: circle;
+    }
+.cv-temp li {margin-bottom: 8px; font-size: 110%;}
+.cv-temp a:hover {color:#27edff; transition: 0.4s; text-decoration: none;}
+.fig{
+    text-align: center;
+    background-color:#1d1a15;
+    color:#ebd565;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 140%;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #fff;
+    border-left: 0.5px solid #40406b;
+    border-right: 0.5px solid #40406b;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.fwLink a {text-decoration:none;}
+.fwLink img:hover {opacity: 0.8; transition: 0.4s;}
+.fig:hover {color: white; transition: 0.4;}
+
+/*===========SHARE BUTTONS===============*/
+.shareBtn {text-align: right; }
+.f{color: #627AAD;}
+.g{color: #DB4437;}
+.t{color: #c0deed;}
+.l{color: #8D6CAB;}
+.th{color: #EE0E6E;}
+.shareBtn a i {margin-left: 20px; font-size: 160%;}
+.shareBtn a:hover{text-decoration: none;}
+.shareBtn a i:hover {
+color:#ebd565;
+transition: 0.4s;
+text-decoration: none;
+}
+
+/*===========FOOTER===============*/
+.site-footer {background-color: #222222;padding: 5px 0px 5px 0px; margin-top:15px;}
+
+/*====MEDIA QUERY 990PX========*/
+@media screen and (max-width:990px) {
+
+}
+/*====MEDIA QUERY 768PX========*/
+@media screen and (max-width:768px) {
+.navSmallSize {font-size: 70%; padding: 10px 0px 10px 0px;}
+p {font-size: 75%; line-height:16px; text-align: left;}
+h3 {font-size:90%;letter-spacing: 1px;}
+.cvRules {text-align: left;}
+.cv-temp li {font-size: 90%;}
+ul li {font-size: 75%;}
+.fig{font-size: 70%; padding-top: 3px; padding-bottom: 3px;}
+.affix {top:5px;}
+#sideBar ul li {margin-bottom: -10px;}
+}
+/*====MEDIA QUERY 400PX========*/
+@media screen and (max-width:400px) {
+h2 {padding: 5px 0 5px 10px;font-size: 100%;}
+.shareBtn a i {font-size: 120%; margin-left: 15px;}
+
+}
